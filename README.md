@@ -67,7 +67,7 @@ export default ChildComponent;
 
 State is used to manage data that can change over time within a component. Unlike props, state is mutable and can be updated using the setState function.
 
-### Example
+#### Example
 
 ```javascript
 // StatefulComponent.js
@@ -92,15 +92,15 @@ export default StatefulComponent;
 ### Example Concept File: `concepts/hooks.md`
 
 
-# Hooks
+## Hooks
 
 Hooks are functions that let you use state and other React features in functional components. The most common hooks are `useState` and `useEffect`.
 
-## useState
+### useState
 
 The `useState` hook allows you to add state to your functional components.
 
-### Example:
+#### Example:
 
 ```javascript
 import React, { useState } from 'react';
